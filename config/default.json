@@ -1,0 +1,5 @@
+{
+  "MongoLocal": "mongodb://localhost:27017/supportapp",
+  "Mlab": "mongodb://supportapp:wahyu123@ds117111.mlab.com:17111/supportapp",
+  "jwtToken": "jwtSecret"
+}
