@@ -16,6 +16,8 @@ app.use(express.json({ extended: false }));
 app.use("/api/login", require("./route/api/login"));
 app.use("/api/user", require("./route/api/user"));
 app.use("/api/location", require("./route/api/location"));
+app.use("/api/divisi", require("./route/api/division"));
+app.use("/api/activity", require("./route/api/activity"));
 
 app.listen(PORT, () => {
   console.log("Server is running ");

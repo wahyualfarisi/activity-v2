@@ -50,7 +50,6 @@ Route.post(
 
     try {
       //bringing user to check email on db
-
       let user = await User.findOne({ email });
 
       //if user exists

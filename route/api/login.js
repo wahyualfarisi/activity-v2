@@ -9,8 +9,8 @@ const User = require("./../../models/User");
 
 /**
  * @route POST api/login
- * @desc  login user with token
- * @access private
+ * @desc  login user
+ * @access public
  */
 Route.post(
   "/",
