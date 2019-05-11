@@ -145,7 +145,6 @@ Route.delete("/issue/:activity_id/:issue_id", auth, async (req, res) => {
     const removeIndex = activity.issue
       .map(item => item.id)
       .indexOf(req.params.issue_id);
-    console.log(removeIndex);
     if (removeIndex === -1)
       return res.status(400).json({ msg: "Issue Not Found" });
 
